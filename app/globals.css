@@ -1,26 +1,67 @@
 @import "tailwindcss";
 
+/* The Taiwaners brand kit.
+   tea #4B372A · milk #F0E1C8 · ink bg #47382E · straw #D98A6E
+
+   The site is light-only on purpose: the brand ground IS the cream from the
+   logo lockup, so an OS-driven dark theme would fight the mark instead of
+   serving it. `color-scheme: light` pins that even when the OS is in dark
+   mode, and also keeps form controls / scrollbars on the light ground. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+
+  /* #F5EEE0 is the exact ground the logo PNGs are drawn on — matching it means
+     the horizontal lockup sits in the header with no visible plate edge. Milk
+     itself (#F0E1C8) is too saturated to carry a whole page, so it demotes to
+     a chip/fill tint below. */
+  --bg: #f5eee0;
+  --surface: #fcf8f1;
+  --border: #decdb0;
+  --text: #4b372a;        /* tea */
+  --muted: #7d6752;       /* tea, lightened to stay AA on cream */
+  --accent: #4b372a;      /* tea — same brown as the logo */
+
+  --milk: #f0e1c8;        /* surface tint for chips and active states */
+  --straw: #d98a6e;       /* secondary accent, used sparingly */
+  /* Straw at full strength is only 2.3:1 on the cream ground, so warnings use
+     a deepened straw for ink/edges and keep true straw for the fill. */
+  --straw-ink: #a85434;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { color-scheme: light; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body), ui-sans-serif, system-ui, -apple-system, "Noto Sans TC", "PingFang TC", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
+
+/* Baloo 2 — the logo face. Headings and the wordmark only; it is too rounded
+   to carry body copy. */
+.display {
+  font-family: var(--font-display), ui-rounded, "Baloo 2", system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+/* Chivo Mono, letterspaced small caps — the kit's label voice. */
+.label {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, monospace;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Chinese text gets a slightly larger optical size so it doesn't read as small
+   next to Latin at the same px value. */
+.zh { font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+
+/* Leaflet paints a white canvas by default, which reads as a bright hole in
+   the cream page; tint its ground and popups to the brand instead. */
+.leaflet-container { background: var(--milk); }
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip { background: var(--surface); color: var(--text); }
+.leaflet-popup-content-wrapper { border: 1px solid var(--border); }
+.leaflet-container a { color: var(--accent); }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 82%, transparent) !important; }

@@ -1,0 +1,980 @@
+{
+  "_meta": {
+    "source": "~/Downloads/Taiwan Wtf to do.pdf (Notion export, 6 pages)",
+    "note": "Verbatim ingest. CJK punctuation repaired: ')'->'(', ','->')', '+'/'､'->'、'. Side notes preserved as written. No enrichment yet.",
+    "sections": [
+      "Taipei downtown",
+      "Further from Taipei",
+      "Nature",
+      "cool locations",
+      "Restaurant/cool bars",
+      "Stores"
+    ],
+    "home_bases": [
+      {
+        "id": "home-taipei",
+        "label": "Home (Taipei)",
+        "address_zh": "台北市大安區仁愛路四段396號",
+        "area": "Da'an",
+        "note": "Anchor for: 'near home', '仁愛路家後面', 'walkable from home', 'next to house'"
+      },
+      {
+        "id": "home-taoyuan",
+        "label": "Home (Taoyuan, near airport)",
+        "address_zh": "桃園市蘆竹區六福路259號",
+        "area": "Luzhu",
+        "note": "Anchor for Taoyuan-side entries: X-Park, 桃園酒廠, 手信霧隱城, Taoyuan coast rotating sushi"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "taipei-101",
+      "section": "Taipei downtown",
+      "name_en": "Taipei 101",
+      "name_zh": "台北101",
+      "category": "sight",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "simple-kaffa-sola",
+      "section": "Taipei downtown",
+      "name_en": "Simple Kaffa Sola",
+      "name_zh": "天空興波咖啡",
+      "category": "cafe",
+      "note": "台北101內、88F",
+      "anchor": ""
+    },
+    {
+      "id": "big-ball-songyan",
+      "section": "Taipei downtown",
+      "name_en": "Big Ball / Songshan Cultural Park",
+      "name_zh": "大巨蛋 & 松菸文創園區",
+      "category": "sight",
+      "note": "可以從台北家走過去、經過國父紀念館",
+      "anchor": "walkable from home, passes 國父紀念館"
+    },
+    {
+      "id": "elephant-trail",
+      "section": "Taipei downtown",
+      "name_en": "Elephant Trail",
+      "name_zh": "象山",
+      "category": "nature",
+      "note": "there arent actually elephants; 在台北101附近",
+      "anchor": "near Taipei 101"
+    },
+    {
+      "id": "xinyi-shopping-day",
+      "section": "Taipei downtown",
+      "name_en": "Shopping Day - Xinyi district malls",
+      "name_zh": "台北101、台北信義區商圈",
+      "category": "shopping",
+      "note": "微風百貨、新光三越、貴婦百貨",
+      "anchor": ""
+    },
+    {
+      "id": "breeze-nan-shan",
+      "section": "Taipei downtown",
+      "name_en": "Breeze Nan Shan",
+      "name_zh": "微風南山",
+      "category": "shopping",
+      "note": "from the Xinyi shopping day",
+      "anchor": "Xinyi"
+    },
+    {
+      "id": "skm-xinyi",
+      "section": "Taipei downtown",
+      "name_en": "Shin Kong Mitsukoshi Xinyi",
+      "name_zh": "新光三越信義新天地",
+      "category": "shopping",
+      "note": "from the Xinyi shopping day",
+      "anchor": "Xinyi"
+    },
+    {
+      "id": "bellavita",
+      "section": "Taipei downtown",
+      "name_en": "BELLAVITA",
+      "name_zh": "寶麗廣塲",
+      "category": "shopping",
+      "note": "from the Xinyi shopping day — 貴婦百貨",
+      "anchor": "Xinyi"
+    },
+    {
+      "id": "dream-plaza",
+      "section": "Taipei downtown",
+      "name_en": "Dream Plaza",
+      "name_zh": "舊的信義誠品",
+      "category": "shopping",
+      "note": "the old Xinyi Eslite",
+      "anchor": ""
+    },
+    {
+      "id": "meerkat75-cafe",
+      "section": "Taipei downtown",
+      "name_en": "Meerkat75 Cafe",
+      "name_zh": "",
+      "category": "cafe",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "zhongshan-shopping-day",
+      "section": "Taipei downtown",
+      "name_en": "Shopping Day - Zhongshan / Nanxi",
+      "name_zh": "新光三越(南西店)、誠品書店、捷運中山站南西商圈、晴光市場紅豆餅",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "skm-nanxi",
+      "section": "Taipei downtown",
+      "name_en": "Shin Kong Mitsukoshi Nanxi",
+      "name_zh": "新光三越台北南西店",
+      "category": "shopping",
+      "note": "from the Zhongshan shopping day",
+      "anchor": "Zhongshan"
+    },
+    {
+      "id": "eslite-nanxi",
+      "section": "Taipei downtown",
+      "name_en": "Eslite Spectrum Nanxi",
+      "name_zh": "誠品生活南西",
+      "category": "shopping",
+      "note": "from the Zhongshan shopping day",
+      "anchor": "Zhongshan"
+    },
+    {
+      "id": "chifeng-street",
+      "section": "Taipei downtown",
+      "name_en": "Chifeng Street",
+      "name_zh": "赤峰街",
+      "category": "shopping",
+      "note": "from the Zhongshan shopping day — the 南西商圈 backstreets",
+      "anchor": "Zhongshan"
+    },
+    {
+      "id": "qingguang-market",
+      "section": "Taipei downtown",
+      "name_en": "Qingguang Market",
+      "name_zh": "晴光市場",
+      "category": "food",
+      "note": "from the Zhongshan shopping day — 紅豆餅",
+      "anchor": "Zhongshan"
+    },
+    {
+      "id": "shilin-night-market",
+      "section": "Taipei downtown",
+      "name_en": "Shilin Night Market",
+      "name_zh": "士林夜市",
+      "category": "night_market",
+      "note": "逛的多、很多年輕人的小店",
+      "anchor": ""
+    },
+    {
+      "id": "ningxia-night-market",
+      "section": "Taipei downtown",
+      "name_en": "Ningxia Night Market",
+      "name_zh": "寧夏夜市",
+      "category": "night_market",
+      "note": "只有吃的、沒有逛的、麻油雞、蚵仔煎、牛肉蒸餃、芋頭圓",
+      "anchor": ""
+    },
+    {
+      "id": "linjiang-night-market",
+      "section": "Taipei downtown",
+      "name_en": "Linjiang St (Tonghua) Night Market",
+      "name_zh": "臨江街觀光夜市",
+      "category": "night_market",
+      "note": "有吃有逛 米粉湯、石家掛包、烤玉米、鹽酥雞",
+      "anchor": ""
+    },
+    {
+      "id": "raohe-night-market",
+      "section": "Taipei downtown",
+      "name_en": "Raohe Night Market & Wufenpu",
+      "name_zh": "饒河夜市 & 五分埔",
+      "category": "night_market",
+      "note": "有吃有逛 胡椒餅、臭豆腐",
+      "anchor": ""
+    },
+    {
+      "id": "yongkang-street",
+      "section": "Taipei downtown",
+      "name_en": "Yongkang Street",
+      "name_zh": "永康街",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "rongjin-gorgeous-time",
+      "section": "Taipei downtown",
+      "name_en": "Japanese Architecture: Rongjin Gorgeous Time",
+      "name_zh": "榕錦時光",
+      "category": "sight",
+      "note": "日式建築、適合拍照、位於永康街、師大附近",
+      "anchor": "near 永康街 / 師大"
+    },
+    {
+      "id": "sun-yat-sen-memorial",
+      "section": "Taipei downtown",
+      "name_en": "Museum Park Next to house: Sun Yat-sen Memorial Hall",
+      "name_zh": "國父紀念館",
+      "category": "sight",
+      "note": "",
+      "anchor": "next to house"
+    },
+    {
+      "id": "cks-memorial",
+      "section": "Taipei downtown",
+      "name_en": "Blue and White chinese architecture: Chiang Kai-shek Memorial Hall",
+      "name_zh": "中正紀念堂",
+      "category": "sight",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "national-palace-museum",
+      "section": "Taipei downtown",
+      "name_en": "National Museum",
+      "name_zh": "故宮",
+      "category": "sight",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "huashan-1914",
+      "section": "Taipei downtown",
+      "name_en": "Modern area - Huashan 1914 Creative Park",
+      "name_zh": "華山文創園區",
+      "category": "sight",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "cody-house-taipei",
+      "section": "Taipei downtown",
+      "name_en": "Cody's place (Taipei)",
+      "name_zh": "",
+      "category": "anchor",
+      "note": "da'an, on Ren'ai Rd",
+      "anchor": "Taipei base"
+    },
+    {
+      "id": "cody-house-taoyuan",
+      "section": "Further from Taipei",
+      "name_en": "Cody's place (Taoyuan)",
+      "name_zh": "",
+      "category": "anchor",
+      "note": "near the airport",
+      "anchor": "Taoyuan base"
+    },
+    {
+      "id": "austin-lin-house",
+      "section": "Taipei downtown",
+      "name_en": "Austin Lin's house",
+      "name_zh": "",
+      "category": "anchor",
+      "note": "banqiao",
+      "anchor": "Banqiao base"
+    },
+    {
+      "id": "nanya-night-market",
+      "section": "Taipei downtown",
+      "name_en": "Banqiao Nanya Night Market",
+      "name_zh": "板橋湳雅夜市",
+      "category": "night_market",
+      "note": "",
+      "anchor": "near Austin's"
+    },
+    {
+      "id": "capybara-knight",
+      "section": "Taipei downtown",
+      "name_en": "Capybara Knight cafe",
+      "name_zh": "水豚騎士",
+      "category": "cafe",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "lalaport-nangang",
+      "section": "Taipei downtown",
+      "name_en": "Mitsui Shopping Park LaLaport Nangang",
+      "name_zh": "三井購物公園 LaLaport 南港",
+      "category": "shopping",
+      "note": "附近有五分埔、饒河夜市",
+      "anchor": "near Wufenpu / Raohe"
+    },
+    {
+      "id": "q-square-gatten",
+      "section": "Taipei downtown",
+      "name_en": "Q Square Mall - sushi and momo paradise",
+      "name_zh": "合點壽司 がってん寿司 京站店",
+      "category": "food",
+      "note": "台北火車站附近",
+      "anchor": "near Taipei Main Station"
+    },
+    {
+      "id": "snoopy-qsquare",
+      "section": "Taipei downtown",
+      "name_en": "Snoopy shop - PEANUTS",
+      "name_zh": "PEANUTS 專櫃 京站店",
+      "category": "shopping",
+      "note": "台北火車站附近",
+      "anchor": "near Taipei Main Station"
+    },
+    {
+      "id": "ximending",
+      "section": "Taipei downtown",
+      "name_en": "Ximen",
+      "name_zh": "西門町",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "dadaocheng-dihua",
+      "section": "Taipei downtown",
+      "name_en": "Dadaocheng & Dihua Street",
+      "name_zh": "大稻埕 & 迪化街",
+      "category": "sight",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "addiction-aquatic",
+      "section": "Taipei downtown",
+      "name_en": "Crazy seafood - Addiction Aquatic Development",
+      "name_zh": "上引水產",
+      "category": "food",
+      "note": "also listed again under sushi places",
+      "anchor": "",
+      "duplicate_of": "sushi-addiction-aquatic"
+    },
+    {
+      "id": "cat-cafes",
+      "section": "Taipei downtown",
+      "name_en": "cat cafes",
+      "name_zh": "貓咖啡",
+      "category": "cafe",
+      "note": "no specific shop named",
+      "anchor": "",
+      "needs_input": true
+    },
+    {
+      "id": "maokong-gondola",
+      "section": "Taipei downtown",
+      "name_en": "Maokong Gondola",
+      "name_zh": "貓空纜車",
+      "category": "sight",
+      "note": "喝茶、茶冰淇淋、看景",
+      "anchor": ""
+    },
+    {
+      "id": "zoo-water-dance",
+      "section": "Taipei downtown",
+      "name_en": "Zoo Station water fountain show",
+      "name_zh": "動物園站水舞區",
+      "category": "sight",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "taipei-zoo",
+      "section": "Taipei downtown",
+      "name_en": "Taipei Zoo",
+      "name_zh": "台北木柵動物園",
+      "category": "sight",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "limitless-escape",
+      "section": "Taipei downtown",
+      "name_en": "Limitless Escape Room",
+      "name_zh": "",
+      "category": "experience",
+      "note": "English option",
+      "anchor": ""
+    },
+    {
+      "id": "keelung-night-market",
+      "section": "Further from Taipei",
+      "name_en": "Keelung Night Market",
+      "name_zh": "基隆夜市",
+      "category": "night_market",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "yehliu",
+      "section": "Further from Taipei",
+      "name_en": "YehLiu Geopark",
+      "name_zh": "野柳地質公園",
+      "category": "nature",
+      "note": "基隆",
+      "anchor": ""
+    },
+    {
+      "id": "shifen-jiufen",
+      "section": "Further from Taipei",
+      "name_en": "Shifen old street & Jiufen",
+      "name_zh": "十分 & 九份",
+      "category": "sight",
+      "note": "lanterns! 十分瀑布、放天燈、九份、可以從台北坐火車轉小火車、golden waterfall",
+      "anchor": ""
+    },
+    {
+      "id": "nanya-rock",
+      "section": "Further from Taipei",
+      "name_en": "Nanya Rock",
+      "name_zh": "南雅奇石",
+      "category": "nature",
+      "note": "基隆",
+      "anchor": ""
+    },
+    {
+      "id": "yangmingshan",
+      "section": "Further from Taipei",
+      "name_en": "Yangmingshan",
+      "name_zh": "陽明山",
+      "category": "nature",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "alishan",
+      "section": "Nature",
+      "name_en": "Alishan",
+      "name_zh": "阿里山",
+      "category": "nature",
+      "note": "嘉義",
+      "anchor": ""
+    },
+    {
+      "id": "taroko",
+      "section": "Nature",
+      "name_en": "Buluowan Terrace / Taroko National Park",
+      "name_zh": "太魯閣國家公園",
+      "category": "nature",
+      "note": "花蓮",
+      "anchor": ""
+    },
+    {
+      "id": "xiaowulai",
+      "section": "Nature",
+      "name_en": "Xiaowulai Skywalk",
+      "name_zh": "小烏來天空步道",
+      "category": "nature",
+      "note": "桃園復興鄉",
+      "anchor": ""
+    },
+    {
+      "id": "sun-moon-lake",
+      "section": "Nature",
+      "name_en": "Sun Moon Lake",
+      "name_zh": "日月潭",
+      "category": "nature",
+      "note": "南投",
+      "anchor": ""
+    },
+    {
+      "id": "bitoujiao",
+      "section": "Nature",
+      "name_en": "Bitoujiao Trail",
+      "name_zh": "鼻頭角步道",
+      "category": "nature",
+      "note": "新北瑞芳區、東北角海岸",
+      "anchor": ""
+    },
+    {
+      "id": "kenting",
+      "section": "Nature",
+      "name_en": "Kenting National Park",
+      "name_zh": "墾丁國家公園",
+      "category": "nature",
+      "note": "台灣最南端",
+      "anchor": ""
+    },
+    {
+      "id": "shiding-noodles",
+      "section": "cool locations",
+      "name_en": "Noodle making factory",
+      "name_zh": "石碇許家手工麵線",
+      "category": "experience",
+      "note": "Shiding District, New Taipei City 新北石碇區",
+      "anchor": ""
+    },
+    {
+      "id": "taoyuan-sake-brewery",
+      "section": "cool locations",
+      "name_en": "Taiwan Tobacco & Liquor Corporation Taoyuan Sake Brewery",
+      "name_zh": "臺灣菸酒股份有限公司 桃園酒廠",
+      "category": "experience",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "chun-shui-tang",
+      "section": "cool locations",
+      "name_en": "first boba store",
+      "name_zh": "春水堂創始店",
+      "category": "cafe",
+      "note": "taichung 台中",
+      "anchor": ""
+    },
+    {
+      "id": "sswyc-mochi",
+      "section": "cool locations",
+      "name_en": "mochi place - Saw Seen Woo Ying Cheng (SSWYC)",
+      "name_zh": "手信霧隱城",
+      "category": "food",
+      "note": "桃園 taoyuan",
+      "anchor": ""
+    },
+    {
+      "id": "lihpao",
+      "section": "cool locations",
+      "name_en": "LIHPAO Discovery Land",
+      "name_zh": "麗寶樂園",
+      "category": "experience",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "yingge-ceramics",
+      "section": "cool locations",
+      "name_en": "Yingge Historic Ceramics Street",
+      "name_zh": "鶯歌陶瓷老街",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "kavalan",
+      "section": "cool locations",
+      "name_en": "Kavalan Whiskey",
+      "name_zh": "噶瑪蘭威士忌",
+      "category": "experience",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "x-park",
+      "section": "cool locations",
+      "name_en": "X-Park",
+      "name_zh": "",
+      "category": "experience",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "claw-machines",
+      "section": "cool locations",
+      "name_en": "Claw Machines Reg & Snack",
+      "name_zh": "",
+      "category": "experience",
+      "note": "",
+      "anchor": "",
+      "needs_input": true
+    },
+    {
+      "id": "shingaoken",
+      "section": "Restaurant/cool bars",
+      "name_en": "Japanese curry and steak",
+      "name_zh": "新高軒",
+      "category": "food",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "le-xuan-wagyu",
+      "section": "Restaurant/cool bars",
+      "name_en": "Wagyu",
+      "name_zh": "樂軒松阪亭",
+      "category": "food",
+      "note": "near 101",
+      "anchor": "near Taipei 101"
+    },
+    {
+      "id": "omakase-hezhangcun",
+      "section": "Restaurant/cool bars",
+      "name_en": "Omakase",
+      "name_zh": "合掌村",
+      "category": "food",
+      "note": "in Taipei",
+      "anchor": ""
+    },
+    {
+      "id": "taoyuan-rotating-sushi",
+      "section": "Restaurant/cool bars",
+      "name_en": "Rotating Sushi Place in Taoyuan coast",
+      "name_zh": "",
+      "category": "food",
+      "note": "",
+      "anchor": "",
+      "needs_input": true
+    },
+    {
+      "id": "dongjie-yingge",
+      "section": "Restaurant/cool bars",
+      "name_en": "sushi place",
+      "name_zh": "東街日本料理 (鶯歌店)",
+      "category": "food",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "jinyu-sushi",
+      "section": "Restaurant/cool bars",
+      "name_en": "Sushi place",
+      "name_zh": "金魚日本料理",
+      "category": "food",
+      "note": "仁愛路家後面",
+      "anchor": "behind the house on Ren'ai Rd"
+    },
+    {
+      "id": "sushi-addiction-aquatic",
+      "section": "Restaurant/cool bars",
+      "name_en": "Sushi place - Addiction Aquatic Development",
+      "name_zh": "上引水產",
+      "category": "food",
+      "note": "",
+      "anchor": "",
+      "duplicate_of": "addiction-aquatic"
+    },
+    {
+      "id": "soba-shinn-citrus",
+      "section": "Restaurant/cool bars",
+      "name_en": "Japanese ramen - Soba Shinn Citrus",
+      "name_zh": "日式拉麵 柑橘",
+      "category": "food",
+      "note": "仁愛路四段、安和路",
+      "anchor": "Ren'ai Rd Sec 4 / Anhe Rd"
+    },
+    {
+      "id": "momo-paradise",
+      "section": "Restaurant/cool bars",
+      "name_en": "MO-MO-PARADISE Taipei Neo19",
+      "name_zh": "摩摩巴拉東 台北 Neo19 牧場",
+      "category": "food",
+      "note": "吃到飽 all you can eat",
+      "anchor": ""
+    },
+    {
+      "id": "wojia-steak-banqiao",
+      "section": "Restaurant/cool bars",
+      "name_en": "My Home Steak Banqiao Yuanke",
+      "name_zh": "我家牛排 板橋遠科店",
+      "category": "food",
+      "note": "吃到飽 all you can eat",
+      "anchor": "Banqiao"
+    },
+    {
+      "id": "david-alpaca",
+      "section": "Restaurant/cool bars",
+      "name_en": "David & Alpaca",
+      "name_zh": "大衛小小羊",
+      "category": "cafe",
+      "note": "pass by shilin",
+      "anchor": "near Shilin"
+    },
+    {
+      "id": "lao-shan-dong",
+      "section": "Restaurant/cool bars",
+      "name_en": "Lao Shan Dong Homemade Noodles",
+      "name_zh": "老山東牛肉麵",
+      "category": "food",
+      "note": "Michelin beef noodle soup place",
+      "anchor": ""
+    },
+    {
+      "id": "modern-toilet",
+      "section": "Restaurant/cool bars",
+      "name_en": "Modern Toilet Restaurant",
+      "name_zh": "馬桶餐廳",
+      "category": "food",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "bubu-car-cafe",
+      "section": "Restaurant/cool bars",
+      "name_en": "BUBU vintage Car Cafe",
+      "name_zh": "",
+      "category": "cafe",
+      "note": "fun restaurant, eat in a van?",
+      "anchor": ""
+    },
+    {
+      "id": "fake-sober",
+      "section": "Restaurant/cool bars",
+      "name_en": "Fake Sober Coffee shop",
+      "name_zh": "",
+      "category": "cafe",
+      "note": "near 101",
+      "anchor": "near Taipei 101"
+    },
+    {
+      "id": "coffee-sind",
+      "section": "Restaurant/cool bars",
+      "name_en": "Coffee Sind",
+      "name_zh": "",
+      "category": "cafe",
+      "note": "Top 100 coffee shop in the world apperantly",
+      "anchor": ""
+    },
+    {
+      "id": "the-top",
+      "section": "Restaurant/cool bars",
+      "name_en": "The Top",
+      "name_zh": "屋頂上",
+      "category": "food",
+      "note": "beautiful taipei view",
+      "anchor": ""
+    },
+    {
+      "id": "wills-teppanyaki",
+      "section": "Restaurant/cool bars",
+      "name_en": "Will's Teppanyaki",
+      "name_zh": "鐵板燒",
+      "category": "food",
+      "note": "high end, $2080、13 course menu",
+      "anchor": ""
+    },
+    {
+      "id": "tomo-sushi",
+      "section": "Restaurant/cool bars",
+      "name_en": "TOMO - Sushi Experience",
+      "name_zh": "朋鰭 TOMO",
+      "category": "food",
+      "note": "$2000+、multicourse menu",
+      "anchor": ""
+    },
+    {
+      "id": "impromptu",
+      "section": "Restaurant/cool bars",
+      "name_en": "Impromptu by Paul Lee",
+      "name_zh": "",
+      "category": "food",
+      "note": "1 Michelin Star Restaurant, $4000 for tasting menu, looks like insane high end taiwan dining experience",
+      "anchor": ""
+    },
+    {
+      "id": "mozi-bar",
+      "section": "Restaurant/cool bars",
+      "name_en": "Mozi Bar",
+      "name_zh": "",
+      "category": "bar",
+      "note": "hidden",
+      "anchor": ""
+    },
+    {
+      "id": "caveyard",
+      "section": "Restaurant/cool bars",
+      "name_en": "Caveyard",
+      "name_zh": "",
+      "category": "food",
+      "note": "for food near Mozi",
+      "anchor": "near Mozi Bar"
+    },
+    {
+      "id": "dianxiaoer-lurou",
+      "section": "Restaurant/cool bars",
+      "name_en": "Braised Pork Bowl",
+      "name_zh": "店小二魯肉飯",
+      "category": "food",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "weekend-fried-chicken",
+      "section": "Restaurant/cool bars",
+      "name_en": "Best fried chicken",
+      "name_zh": "週末炸雞俱樂部",
+      "category": "food",
+      "note": "near home",
+      "anchor": "near home"
+    },
+    {
+      "id": "kaixi-lurou",
+      "section": "Restaurant/cool bars",
+      "name_en": "Braised Pork near 101",
+      "name_zh": "開囍滷肉專賣店",
+      "category": "food",
+      "note": "",
+      "anchor": "near Taipei 101"
+    },
+    {
+      "id": "zhuantang-lurou",
+      "section": "Restaurant/cool bars",
+      "name_en": "Braised Pork near Zhongshan Stn",
+      "name_zh": "饌堂黑金滷肉飯",
+      "category": "food",
+      "note": "",
+      "anchor": "near 中山站"
+    },
+    {
+      "id": "coffee-s",
+      "section": "Restaurant/cool bars",
+      "name_en": "Frozen coffee - Coffee S",
+      "name_zh": "",
+      "category": "cafe",
+      "note": "",
+      "anchor": "",
+      "needs_input": true
+    },
+    {
+      "id": "samo-ondoh",
+      "section": "Stores",
+      "name_en": "Samo Ondoh",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "trends-concept-57",
+      "section": "Stores",
+      "name_en": "Trends Concept 57",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "uniqlo",
+      "section": "Stores",
+      "name_en": "Uniqlo",
+      "name_zh": "優衣庫",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "gu",
+      "section": "Stores",
+      "name_en": "GU",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "airspace",
+      "section": "Stores",
+      "name_en": "Airspace",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "jellysports",
+      "section": "Stores",
+      "name_en": "Jellysports",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "Tennis",
+      "anchor": ""
+    },
+    {
+      "id": "nitori",
+      "section": "Stores",
+      "name_en": "Nitori",
+      "name_zh": "宜得利家居",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "life8",
+      "section": "Stores",
+      "name_en": "Life8",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "plain-me",
+      "section": "Stores",
+      "name_en": "Plain-me",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "united-arrows",
+      "section": "Stores",
+      "name_en": "United Arrows",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "listed as 'United Arrow'",
+      "anchor": ""
+    },
+    {
+      "id": "oak-room",
+      "section": "Stores",
+      "name_en": "Oak Room",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "expo-select",
+      "section": "Stores",
+      "name_en": "Expo Select",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "beams",
+      "section": "Stores",
+      "name_en": "Beams",
+      "name_zh": "",
+      "kind": "brand",
+      "category": "shopping",
+      "note": "",
+      "anchor": ""
+    },
+    {
+      "id": "ximen-vintage-jackets",
+      "section": "Stores",
+      "name_en": "Vintage Jackets",
+      "name_zh": "日本の進口衣",
+      "kind": "place",
+      "category": "shopping",
+      "note": "西門町",
+      "anchor": "Ximending"
+    },
+    {
+      "id": "adidas-xinyi",
+      "section": "Stores",
+      "name_en": "Taipei exclusive - adidas Xinyi Brand Center",
+      "name_zh": "",
+      "kind": "place",
+      "category": "shopping",
+      "note": "",
+      "anchor": "Xinyi"
+    }
+  ]
+}
