@@ -1,21 +1,10 @@
-'use client';
-import { useState } from 'react';
 import { CATEGORIES, type Place } from '@/lib/types';
-import { supabase } from '@/lib/supabase';
 
+// `visited` is still read here — it dims and strikes through the card, and the
+// Hide visited filter reads it — but nothing in the UI sets it any more.
 export default function PlaceCard({ place }: { place: Place }) {
-  const [visited, setVisited] = useState(place.visited);
-  const [busy, setBusy] = useState(false);
+  const visited = place.visited;
   const cat = CATEGORIES[place.category];
-
-  async function toggleVisited() {
-    const next = !visited;
-    setVisited(next);           // optimistic
-    setBusy(true);
-    const { error } = await supabase.from('places').update({ visited: next }).eq('id', place.id);
-    if (error) setVisited(!next);   // roll back so the UI never lies about what was saved
-    setBusy(false);
-  }
 
   return (
     <li
@@ -75,11 +64,9 @@ export default function PlaceCard({ place }: { place: Place }) {
                 Open in Maps
               </a>
             )}
-            <button onClick={toggleVisited} disabled={busy}
-                    className="rounded-full border px-2.5 py-1 font-medium transition-colors hover:bg-[color-mix(in_srgb,var(--accent)_8%,transparent)] disabled:opacity-50"
-                    style={{ borderColor: 'var(--border)', color: 'var(--muted)' }}>
-              {visited ? '✓ Been' : 'Mark visited'}
-            </button>
+            {visited && (
+              <span className="label text-[10px]" style={{ color: 'var(--muted)' }}>✓ Been</span>
+            )}
             <span className="ml-auto text-[11px]" style={{ color: 'var(--muted)' }}>
               {place.added_by}
             </span>
