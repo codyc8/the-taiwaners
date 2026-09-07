@@ -1,29 +1,37 @@
+import Image from 'next/image';
 import { CATEGORIES, type Place } from '@/lib/types';
 import { PLACE_IMAGES } from '@/lib/place-images';
 
-export default function PlaceCard({ place }: { place: Place }) {
+export default function PlaceCard({ place, eager = false }: { place: Place; eager?: boolean }) {
   const cat = CATEGORIES[place.category];
-  // Photos are files in public/places/<id>.jpg; the manifest is what tells us
-  // one exists, so a place without a photo renders no <img> at all.
-  const photo = PLACE_IMAGES.has(place.id) ? `/places/${place.id}.jpg` : null;
+  // Photos are files in public/places/<id>.<ext>; the manifest is what tells us
+  // one exists, so a place without a photo renders no image at all and its text
+  // takes the full width instead of leaving a gap.
+  const photo = PLACE_IMAGES[place.id] ?? null;
 
   return (
     <li
-      className="overflow-hidden rounded-xl border"
+      className="flex overflow-hidden rounded-xl border"
       style={{ borderColor: 'var(--border)', background: 'var(--surface)' }}
     >
       {photo && (
-        <img
-          src={photo}
-          alt=""
-          loading="lazy"
-          decoding="async"
-          className="block h-40 w-full object-cover"
-          style={{ background: 'var(--milk)' }}
-        />
+        // Fixed-width column that stretches to the card's height, so a long note
+        // makes the photo taller rather than pushing the layout around.
+        <div className="relative w-[104px] shrink-0 self-stretch sm:w-[152px]"
+             style={{ background: 'var(--milk)' }}>
+          <Image
+            src={photo}
+            alt=""
+            fill
+            sizes="(max-width: 640px) 104px, 152px"
+            quality={90}
+            priority={eager}
+            className="object-cover"
+          />
+        </div>
       )}
 
-      <div className="flex items-start gap-3 p-3">
+      <div className="flex min-w-0 flex-1 items-start gap-3 p-3">
         <span aria-hidden className="mt-0.5 text-lg leading-none">{cat.emoji}</span>
 
         <div className="min-w-0 flex-1">

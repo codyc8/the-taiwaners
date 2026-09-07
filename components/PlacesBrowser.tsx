@@ -111,7 +111,7 @@ export default function PlacesBrowser({ places }: { places: Place[] }) {
         {shown.length} place{shown.length === 1 ? '' : 's'} · {BANDS[band].hint}
       </p>
 
-      {groups.map(([area, items]) => {
+      {groups.map(([area, items], gi) => {
         const meta = AREA_META[area];
         return (
           <section key={area} className="mb-5">
@@ -129,7 +129,9 @@ export default function PlacesBrowser({ places }: { places: Place[] }) {
               {area !== BRANDS_KEY && <AreaLocator area={area} places={items} />}
             </div>
             <ul className="space-y-2">
-              {items.map(p => <PlaceCard key={p.id} place={p} />)}
+              {/* Only the very first card is above the fold; eager-load it so the
+                  photo is not the thing holding up largest-contentful-paint. */}
+              {items.map((p, i) => <PlaceCard key={p.id} place={p} eager={gi === 0 && i === 0} />)}
             </ul>
           </section>
         );
