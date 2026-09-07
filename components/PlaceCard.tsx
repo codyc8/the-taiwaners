@@ -1,26 +1,34 @@
 import { CATEGORIES, type Place } from '@/lib/types';
+import { PLACE_IMAGES } from '@/lib/place-images';
 
-// `visited` is still read here — it dims and strikes through the card, and the
-// Hide visited filter reads it — but nothing in the UI sets it any more.
 export default function PlaceCard({ place }: { place: Place }) {
-  const visited = place.visited;
   const cat = CATEGORIES[place.category];
+  // Photos are files in public/places/<id>.jpg; the manifest is what tells us
+  // one exists, so a place without a photo renders no <img> at all.
+  const photo = PLACE_IMAGES.has(place.id) ? `/places/${place.id}.jpg` : null;
 
   return (
     <li
-      className="rounded-xl border p-3 transition-opacity"
-      style={{
-        borderColor: 'var(--border)',
-        background: 'var(--surface)',
-        opacity: visited ? 0.55 : 1,
-      }}
+      className="overflow-hidden rounded-xl border"
+      style={{ borderColor: 'var(--border)', background: 'var(--surface)' }}
     >
-      <div className="flex items-start gap-3">
+      {photo && (
+        <img
+          src={photo}
+          alt=""
+          loading="lazy"
+          decoding="async"
+          className="block h-40 w-full object-cover"
+          style={{ background: 'var(--milk)' }}
+        />
+      )}
+
+      <div className="flex items-start gap-3 p-3">
         <span aria-hidden className="mt-0.5 text-lg leading-none">{cat.emoji}</span>
 
         <div className="min-w-0 flex-1">
           {/* English name (or descriptor) leads; Chinese sits underneath. */}
-          <h3 className={`display text-[16px] leading-snug ${visited ? 'line-through' : ''}`}>
+          <h3 className="display text-[16px] leading-snug">
             {place.name_en || place.name_zh}
           </h3>
           {place.name_zh && place.name_en && (
@@ -63,9 +71,6 @@ export default function PlaceCard({ place }: { place: Place }) {
                  className="font-medium underline underline-offset-2" style={{ color: 'var(--accent)' }}>
                 Open in Maps
               </a>
-            )}
-            {visited && (
-              <span className="label text-[10px]" style={{ color: 'var(--muted)' }}>✓ Been</span>
             )}
             <span className="ml-auto text-[11px]" style={{ color: 'var(--muted)' }}>
               {place.added_by}

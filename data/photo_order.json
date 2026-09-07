@@ -36,9 +36,9 @@
     "section": "Taipei downtown"
   },
   "7": {
-    "id": "cat-cafes",
-    "name_en": "Cat cafes",
-    "name_zh": "貓咖啡",
+    "id": "cat-cafe-mocha-xinyi",
+    "name_en": "Cat Cafe Mocha Xinyi",
+    "name_zh": "貓咖啡 Cat Cafe Mocha 台北信義店",
     "section": "Taipei downtown"
   },
   "8": {
@@ -151,8 +151,8 @@
   },
   "26": {
     "id": "raohe-night-market",
-    "name_en": "Raohe Night Market & Wufenpu",
-    "name_zh": "饒河夜市 & 五分埔",
+    "name_en": "Raohe Street Night Market",
+    "name_zh": "饒河街觀光夜市",
     "section": "Taipei downtown"
   },
   "27": {
@@ -210,456 +210,468 @@
     "section": "Taipei downtown"
   },
   "36": {
+    "id": "wufenpu",
+    "name_en": "Wufenpu Garment Wholesale Area",
+    "name_zh": "五分埔商圈",
+    "section": "Taipei downtown"
+  },
+  "37": {
     "id": "ximending",
     "name_en": "Ximending",
     "name_zh": "西門町",
     "section": "Taipei downtown"
   },
-  "37": {
+  "38": {
     "id": "yongkang-street",
     "name_en": "Yongkang Street",
     "name_zh": "永康街",
     "section": "Taipei downtown"
   },
-  "38": {
+  "39": {
     "id": "zoo-water-dance",
     "name_en": "Zoo Station water fountain show",
     "name_zh": "動物園站水舞區",
     "section": "Taipei downtown"
   },
-  "39": {
+  "40": {
     "id": "cody-house-taoyuan",
     "name_en": "Cody's place (Taoyuan)",
     "name_zh": "",
     "section": "Further from Taipei"
   },
-  "40": {
+  "41": {
+    "id": "jiufen",
+    "name_en": "Jiufen Old Street",
+    "name_zh": "九份老街",
+    "section": "Further from Taipei"
+  },
+  "42": {
     "id": "keelung-night-market",
     "name_en": "Keelung Miaokou Night Market",
     "name_zh": "基隆夜市",
     "section": "Further from Taipei"
   },
-  "41": {
+  "43": {
     "id": "nanya-rock",
     "name_en": "Nanya Rock",
     "name_zh": "南雅奇石",
     "section": "Further from Taipei"
   },
-  "42": {
-    "id": "shifen-jiufen",
-    "name_en": "Shifen Old Street & Jiufen",
-    "name_zh": "十分 & 九份",
+  "44": {
+    "id": "shifen-old-street",
+    "name_en": "Shifen Old Street",
+    "name_zh": "十分老街",
     "section": "Further from Taipei"
   },
-  "43": {
+  "45": {
     "id": "yangmingshan",
     "name_en": "Yangmingshan",
     "name_zh": "陽明山",
     "section": "Further from Taipei"
   },
-  "44": {
+  "46": {
     "id": "yehliu",
     "name_en": "Yehliu Geopark",
     "name_zh": "野柳地質公園",
     "section": "Further from Taipei"
   },
-  "45": {
+  "47": {
     "id": "alishan",
     "name_en": "Alishan",
     "name_zh": "阿里山",
     "section": "Nature"
   },
-  "46": {
+  "48": {
     "id": "bitoujiao",
     "name_en": "Bitoujiao Trail",
     "name_zh": "鼻頭角步道",
     "section": "Nature"
   },
-  "47": {
+  "49": {
     "id": "kenting",
     "name_en": "Kenting National Park",
     "name_zh": "墾丁國家公園",
     "section": "Nature"
   },
-  "48": {
+  "50": {
     "id": "sun-moon-lake",
     "name_en": "Sun Moon Lake",
     "name_zh": "日月潭",
     "section": "Nature"
   },
-  "49": {
+  "51": {
     "id": "taroko",
     "name_en": "Taroko National Park",
     "name_zh": "太魯閣國家公園",
     "section": "Nature"
   },
-  "50": {
+  "52": {
     "id": "xiaowulai",
     "name_en": "Xiaowulai Skywalk",
     "name_zh": "小烏來天空步道",
     "section": "Nature"
   },
-  "51": {
+  "53": {
     "id": "chun-shui-tang",
     "name_en": "Chun Shui Tang Founding Store",
     "name_zh": "春水堂創始店",
     "section": "cool locations"
   },
-  "52": {
+  "54": {
     "id": "shiding-noodles",
     "name_en": "Hsu's Noodle Shiding",
     "name_zh": "石碇許家手工麵線",
     "section": "cool locations"
   },
-  "53": {
+  "55": {
     "id": "kavalan",
     "name_en": "Kavalan Whisky Distillery",
     "name_zh": "噶瑪蘭威士忌",
     "section": "cool locations"
   },
-  "54": {
+  "56": {
     "id": "lihpao",
     "name_en": "LIHPAO Discovery Land",
     "name_zh": "麗寶樂園",
     "section": "cool locations"
   },
-  "55": {
+  "57": {
     "id": "sswyc-mochi",
     "name_en": "Shu Shin Kirigakure Mochi Castle",
     "name_zh": "手信霧隱城",
     "section": "cool locations"
   },
-  "56": {
+  "58": {
     "id": "claw-machines",
     "name_en": "STARBEARY Claw Machine Arcade",
     "name_zh": "",
     "section": "cool locations"
   },
-  "57": {
+  "59": {
     "id": "taoyuan-sake-brewery",
     "name_en": "Taoyuan Sake Brewery",
     "name_zh": "臺灣菸酒股份有限公司 桃園酒廠",
     "section": "cool locations"
   },
-  "58": {
+  "60": {
     "id": "x-park",
     "name_en": "Xpark Aquarium",
     "name_zh": "",
     "section": "cool locations"
   },
-  "59": {
+  "61": {
     "id": "yingge-ceramics",
     "name_en": "Yingge Historic Ceramics Street",
     "name_zh": "鶯歌陶瓷老街",
     "section": "cool locations"
   },
-  "60": {
+  "62": {
     "id": "caveyard",
     "name_en": "Caveyard",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "61": {
+  "63": {
     "id": "coffee-s",
     "name_en": "Coffee S Frozen Coffee",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "62": {
+  "64": {
     "id": "coffee-sind",
     "name_en": "Coffee Sind",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "63": {
+  "65": {
     "id": "david-alpaca",
     "name_en": "David & Alpaca",
     "name_zh": "大衛小小羊",
     "section": "Restaurant/cool bars"
   },
-  "64": {
+  "66": {
     "id": "dianxiaoer-lurou",
     "name_en": "Dian Xiao Er Braised Pork Rice",
     "name_zh": "店小二魯肉飯",
     "section": "Restaurant/cool bars"
   },
-  "65": {
+  "67": {
     "id": "fake-sober",
     "name_en": "Fake Sober Coffee & Bar",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "66": {
+  "68": {
     "id": "taoyuan-rotating-sushi",
     "name_en": "Hangkonggang 360 Revolving Restaurant",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "67": {
+  "69": {
     "id": "omakase-hezhangcun",
     "name_en": "Hezhangcun Sushi",
     "name_zh": "合掌村",
     "section": "Restaurant/cool bars"
   },
-  "68": {
+  "70": {
     "id": "iceeisbock",
     "name_en": "IceEisBock",
     "name_zh": "艾斯博客",
     "section": "Restaurant/cool bars"
   },
-  "69": {
+  "71": {
     "id": "impromptu",
     "name_en": "Impromptu by Paul Lee",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "70": {
+  "72": {
     "id": "jinyu-sushi",
     "name_en": "Kingyo Japanese Cuisine",
     "name_zh": "金魚日本料理",
     "section": "Restaurant/cool bars"
   },
-  "71": {
+  "73": {
     "id": "lao-shan-dong",
     "name_en": "Lao Shan Dong Homemade Noodles",
     "name_zh": "老山東牛肉麵",
     "section": "Restaurant/cool bars"
   },
-  "72": {
+  "74": {
     "id": "leyeshi",
     "name_en": "Le Ye Shi",
     "name_zh": "樂野食",
     "section": "Restaurant/cool bars"
   },
-  "73": {
+  "75": {
     "id": "le-xuan-wagyu",
     "name_en": "Matsuzaka Tei Wagyu Sukiyaki",
     "name_zh": "樂軒松阪亭",
     "section": "Restaurant/cool bars"
   },
-  "74": {
+  "76": {
     "id": "momo-paradise",
     "name_en": "Mo-Mo-Paradise Neo19",
     "name_zh": "摩摩巴拉東 台北 Neo19 牧場",
     "section": "Restaurant/cool bars"
   },
-  "75": {
+  "77": {
     "id": "modern-toilet",
     "name_en": "Modern Toilet Restaurant",
     "name_zh": "馬桶餐廳",
     "section": "Restaurant/cool bars"
   },
-  "76": {
+  "78": {
     "id": "mozhuting-neihu",
     "name_en": "Mozhuting Ran Mian (Neihu Ruiguang)",
     "name_zh": "墨竹亭 燃麵本家 內湖瑞光店",
     "section": "Restaurant/cool bars"
   },
-  "77": {
+  "79": {
     "id": "mozi-bar",
     "name_en": "Mozi Bar",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "78": {
+  "80": {
     "id": "wojia-steak-banqiao",
     "name_en": "My Home Steak Banqiao",
     "name_zh": "我家牛排 板橋遠科店",
     "section": "Restaurant/cool bars"
   },
-  "79": {
+  "81": {
     "id": "neo-cafe",
     "name_en": "Neo Cafe",
     "name_zh": "妳有咖啡",
     "section": "Restaurant/cool bars"
   },
-  "80": {
+  "82": {
     "id": "shingaoken",
     "name_en": "Niitakaken Japanese Curry",
     "name_zh": "新高軒",
     "section": "Restaurant/cool bars"
   },
-  "81": {
+  "83": {
     "id": "kaixi-lurou",
     "name_en": "Open Smile Braised Pork Rice",
     "name_zh": "開囍滷肉專賣店",
     "section": "Restaurant/cool bars"
   },
-  "82": {
+  "84": {
     "id": "bubu-car-cafe",
     "name_en": "P.S. BUBU Vintage Car Restaurant",
     "name_zh": "",
     "section": "Restaurant/cool bars"
   },
-  "83": {
+  "85": {
     "id": "siping-tomato-beef-noodle",
     "name_en": "Siping St Tomato Beef Noodles",
     "name_zh": "四平街番茄牛肉麵",
     "section": "Restaurant/cool bars"
   },
-  "84": {
+  "86": {
     "id": "soba-shinn-citrus",
     "name_en": "Soba Shinn Citrus",
     "name_zh": "日式拉麵 柑橘",
     "section": "Restaurant/cool bars"
   },
-  "85": {
+  "87": {
     "id": "the-top",
     "name_en": "The Top",
     "name_zh": "屋頂上",
     "section": "Restaurant/cool bars"
   },
-  "86": {
+  "88": {
     "id": "the-spring-zhongshan",
     "name_en": "THE·Spring (Zhongshan)",
     "name_zh": "THE·春",
     "section": "Restaurant/cool bars"
   },
-  "87": {
+  "89": {
     "id": "tomo-sushi",
     "name_en": "TOMO Sushi Omakase",
     "name_zh": "朋鮨 TOMO",
     "section": "Restaurant/cool bars"
   },
-  "88": {
+  "90": {
     "id": "toriaezu-curry",
     "name_en": "TORIAEZU CURRY",
     "name_zh": "トリアエズカレー",
     "section": "Restaurant/cool bars"
   },
-  "89": {
+  "91": {
     "id": "dongjie-yingge",
     "name_en": "Tou Kai Japanese Cuisine",
     "name_zh": "東街日本料理 (鶯歌店)",
     "section": "Restaurant/cool bars"
   },
-  "90": {
+  "92": {
     "id": "wangs-broth",
     "name_en": "Wang's Broth",
     "name_zh": "小王煮瓜",
     "section": "Restaurant/cool bars"
   },
-  "91": {
+  "93": {
     "id": "weekend-fried-chicken",
     "name_en": "Weekend Chicken Club",
     "name_zh": "週末炸雞俱樂部",
     "section": "Restaurant/cool bars"
   },
-  "92": {
+  "94": {
     "id": "wills-teppanyaki",
     "name_en": "Will's Teppanyaki",
     "name_zh": "鐵板燒",
     "section": "Restaurant/cool bars"
   },
-  "93": {
+  "95": {
     "id": "xinji-sushi",
     "name_en": "Xinji Sushi",
     "name_zh": "忻鮨壽司",
     "section": "Restaurant/cool bars"
   },
-  "94": {
+  "96": {
     "id": "yuanfang-gua-bao",
     "name_en": "Yuan Fang Gua Bao",
     "name_zh": "源芳刈包",
     "section": "Restaurant/cool bars"
   },
-  "95": {
+  "97": {
     "id": "zhuantang-lurou",
     "name_en": "Zhuan Tang Braised Pork Rice",
     "name_zh": "饌堂黑金滷肉飯",
     "section": "Restaurant/cool bars"
   },
-  "96": {
+  "98": {
     "id": "adidas-xinyi",
     "name_en": "adidas Brand Center Xinyi",
     "name_zh": "",
     "section": "Stores"
   },
-  "97": {
+  "99": {
     "id": "airspace",
     "name_en": "AIR SPACE Womenswear",
     "name_zh": "",
     "section": "Stores"
   },
-  "98": {
+  "100": {
     "id": "beams",
     "name_en": "Beams",
     "name_zh": "",
     "section": "Stores"
   },
-  "99": {
+  "101": {
     "id": "expo-select",
     "name_en": "Expo Select",
     "name_zh": "",
     "section": "Stores"
   },
-  "100": {
+  "102": {
     "id": "gu",
     "name_en": "GU",
     "name_zh": "",
     "section": "Stores"
   },
-  "101": {
+  "103": {
     "id": "jellysports",
     "name_en": "Jellysport Sporting Goods",
     "name_zh": "",
     "section": "Stores"
   },
-  "102": {
+  "104": {
     "id": "liberated-rhythms",
     "name_en": "LIBERATED RHYTHMS",
     "name_zh": "解放之聲",
     "section": "Stores"
   },
-  "103": {
+  "105": {
     "id": "life8",
     "name_en": "Life8",
     "name_zh": "",
     "section": "Stores"
   },
-  "104": {
+  "106": {
     "id": "nitori",
     "name_en": "Nitori",
     "name_zh": "宜得利家居",
     "section": "Stores"
   },
-  "105": {
+  "107": {
     "id": "oak-room",
     "name_en": "Oak Room Menswear",
     "name_zh": "",
     "section": "Stores"
   },
-  "106": {
+  "108": {
     "id": "plain-me",
     "name_en": "plain-me Menswear",
     "name_zh": "",
     "section": "Stores"
   },
-  "107": {
+  "109": {
     "id": "ximen-vintage-jackets",
     "name_en": "Riben Jinkou Yi Vintage Clothing",
     "name_zh": "日本の進口衣",
     "section": "Stores"
   },
-  "108": {
+  "110": {
     "id": "samo-ondoh",
     "name_en": "Samo Ondoh Bag Store",
     "name_zh": "",
     "section": "Stores"
   },
-  "109": {
+  "111": {
     "id": "trends-concept-57",
     "name_en": "TRENDS Concept 57",
     "name_zh": "",
     "section": "Stores"
   },
-  "110": {
+  "112": {
     "id": "uniqlo",
     "name_en": "Uniqlo",
     "name_zh": "優衣庫",
     "section": "Stores"
   },
-  "111": {
+  "113": {
     "id": "united-arrows",
     "name_en": "United Arrows",
     "name_zh": "",

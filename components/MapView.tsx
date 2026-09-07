@@ -72,7 +72,7 @@ export default function MapView({ places }: { places: Place[] }) {
               pathOptions={{
                 color: '#fff', weight: 2,
                 fillColor: c.color,
-                fillOpacity: p.visited ? 0.3 : 0.92,
+                fillOpacity: 0.92,
               }}
             >
               <Popup>

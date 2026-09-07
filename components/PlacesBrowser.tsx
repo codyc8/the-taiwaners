@@ -15,21 +15,19 @@ export default function PlacesBrowser({ places }: { places: Place[] }) {
   const [band, setBand] = useState<Band>('city');
   const [cats, setCats] = useState<Set<Category>>(new Set());
   const [q, setQ] = useState('');
-  const [hideVisited, setHideVisited] = useState(false);
 
   const shown = useMemo(() => {
     const needle = q.trim().toLowerCase();
     return places.filter(p =>
       p.distance_band === band &&
       (cats.size === 0 || cats.has(p.category)) &&
-      (!hideVisited || !p.visited) &&
       (!needle ||
         p.name_en.toLowerCase().includes(needle) ||
         p.name_zh.includes(q.trim()) ||
         p.area.toLowerCase().includes(needle) ||
         p.note.toLowerCase().includes(needle)),
     );
-  }, [places, band, cats, q, hideVisited]);
+  }, [places, band, cats, q]);
 
   // Group by area, largest cluster first — that ordering is the itinerary hint.
   const groups = useMemo(() => {
@@ -107,15 +105,6 @@ export default function PlacesBrowser({ places }: { places: Place[] }) {
             </button>
           );
         })}
-        <button onClick={() => setHideVisited(v => !v)}
-          className="rounded-full border px-2.5 py-1 text-[12px] font-medium"
-          style={{
-            borderColor: hideVisited ? 'var(--accent)' : 'var(--border)',
-            background: hideVisited ? 'var(--milk)' : 'transparent',
-            color: hideVisited ? 'var(--accent)' : 'var(--muted)',
-          }}>
-          {hideVisited ? '✓ ' : ''}Hide visited
-        </button>
       </div>
 
       <p className="mb-3 text-[12px]" style={{ color: 'var(--muted)' }}>
